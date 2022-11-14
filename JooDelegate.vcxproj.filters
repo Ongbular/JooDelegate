@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{68856424-c75b-4310-9b6c-4365e7a38175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{a2fb2f10-60f1-4b53-8115-b840a6b51f90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\DelegateEvent">
+      <UniqueIdentifier>{0f806207-8cd1-4db2-b30f-d2265719b4aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Delegate">
+      <UniqueIdentifier>{8a55d11f-2cd4-4d61-9072-6483cb5c6f4c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\JooDelegate\TypeDefine.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\JooDelegate\DelegateEvent.h">
+      <Filter>include\DelegateEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="include\JooDelegate\DelegateSharedEvent.h">
+      <Filter>include\DelegateEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="include\JooDelegate\DelegateStaticEvent.h">
+      <Filter>include\DelegateEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="include\JooDelegate\UniCastDelegate.h">
+      <Filter>include\Delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="include\JooDelegate\DelegateRawEvent.h">
+      <Filter>include\DelegateEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="include\JooDelegate\DelegateHandle.h">
+      <Filter>include\Delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="include\JooDelegate\DelegateBase.h">
+      <Filter>include\Delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="include\JooDelegate\MultiCastDelegate.h">
+      <Filter>include\Delegate</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\DelegateEvent.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
